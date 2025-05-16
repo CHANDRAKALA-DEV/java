@@ -1,4 +1,4 @@
-package com.edurekademo.utilities;
+package com.edurekademo.utilities
 
 import java.io.InputStream;
 import java.util.Enumeration;
@@ -101,7 +101,7 @@ public class PropertyLoader
 			//throw new IllegalArgumentException ("could not load [" + name + "]"+ " as " + (LOAD_AS_RESOURCE_BUNDLE ? "a resource bundle" : "a classloader resource"));
 			result = new Properties ();
 		} 
-		return result;  
+		return result  
 	}
 
 }
