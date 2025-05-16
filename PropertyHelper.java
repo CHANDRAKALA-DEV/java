@@ -1,4 +1,4 @@
-package com.edurekademo.utilities;
+package com.edurekademo.utilities
 
 import java.util.Enumeration;
 import java.util.HashMap;
@@ -93,5 +93,4 @@ public static String getProperty(String propertyName,String strDefault){
 public static String get(String propertyName){
 	return getProperty(propertyName); 
 }
- }
-
+ 
